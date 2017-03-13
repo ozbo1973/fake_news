@@ -58,9 +58,9 @@ nav a {
 	padding-top: 116px;
 }
 
-.content div {
+/*.content div {
 	border: 1px solid black;
-}
+}*/
 
 .column {
 	display: flex;
@@ -84,14 +84,13 @@ nav a {
 .image-content {
 	display:flex;
 	flex-direction: column;
-	justify-content: center;
 	height: 300px;
 	margin-top: 15px;
 	font-family: Georgia;
 	font-weight:bold;
 	font-size: 30px;
 	color: white;
-	text-align:center;
+	text-align:left;
 }
 
 .lead-story .image-content {
@@ -107,14 +106,31 @@ nav a {
 }
 
 .pop-culture.image-content {
-	background-image: url(../img/img-story-3.png;
+	background-image: url(../img/img-story-3.png);
 }
 
 .cat-ceo.image-content {
-	background-image: url(../img/img-story-1.png;
+	background-image: url(../img/img-story-1.png);
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+.stories .text-content {
+	height: 250px;
+}
+
+.story {
+	display: flex;
+	flext-direction: column;
+	width: 300px;
 }
 
 .narrative {
+	margin-top: 16px;
 	font-family: Georgia;
 	font-size: 17px;
 	color:black;

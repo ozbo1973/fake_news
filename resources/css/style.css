@@ -48,4 +48,25 @@ nav span {
 nav a {
 	color: black;
 }
-	
+
+/* Main Content */
+.content {
+	display: flex;
+	width: 1232px;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+}
+
+.content div {
+	border: 1px solid black;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+
+.column .large {
+	width: 630px;
+}

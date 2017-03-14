@@ -83,6 +83,7 @@ nav a {
 /* Images and Stories */
 .image-content {
 	display:flex;
+	justify-content: center;
 	flex-direction: column;
 	height: 300px;
 	margin-top: 15px;
@@ -90,7 +91,7 @@ nav a {
 	font-weight:bold;
 	font-size: 30px;
 	color: white;
-	text-align:left;
+	text-align:center;
 }
 
 .lead-story .image-content {
